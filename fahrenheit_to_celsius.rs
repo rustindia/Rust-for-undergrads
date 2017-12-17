@@ -14,6 +14,6 @@ fn main()
 {
 println!("enter temperature in fahrenheit");
 let mut fahrenheit = read_int();
-let mut celsius = ((a-32.0)*5.0)/9.0;
-println!("celsius is {}",b);
+let mut celsius = ((fahrenheit-32.0)*5.0)/9.0;
+println!("celsius is {}",celsius);
 }
