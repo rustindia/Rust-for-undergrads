@@ -12,14 +12,11 @@ fn read_int()->u32{                   // function to read values
 }
 
 fn main(){
-let mut year=read_int();               // taking input year from user
-if year%4==0 && year%100!=0{          // condition for a leap year
+let mut year=read_int();                               // taking input year from user
+if year%4==0 && year%100!=0 || year%400 == 0{          // condition for a leap year
 println!("{} is leap year",year);
 }
-else if year%100 == 0{               // condition for a leap year
-println!("{} is leap year",year);
 
-}
 else{
 println!("{} is not leap year",year);
 }
