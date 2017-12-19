@@ -28,6 +28,7 @@ let mut v=vec!();
  sum=sum+x;
 }
 let average = sum/size;
+println!("The sum of {:?}  numbers is {}",v,sum);    
 println!("The average of {:?}  numbers is {}",v,average);
 
 }
