@@ -1,4 +1,4 @@
-/* Program to Calculate Average Using vector */
+/* Program to Calculate Sum and Average Using vector */
 
 use std::io;
 fn read_int() -> i32 {
