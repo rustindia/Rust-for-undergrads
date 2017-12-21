@@ -37,10 +37,8 @@ rustc helloworld.rs
 * Output will be printed on the screen
 
   ```text
-  Hello World!
+  Hello Worl
   ```
-
-s
 
 
 
