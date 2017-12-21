@@ -1,3 +1,5 @@
+[![license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
 # Rust-for-undergrads
 
 Aim: To make it easy for undergrads to start Rust.
