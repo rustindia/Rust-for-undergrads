@@ -33,7 +33,7 @@ fn main(){
                         a[i]=a[imin];
                         a[imin]=temp;        
           }
-          println!("The sorted elements by selection sort are:");
+          println!("The resulted elements by selection sort are:");
           for l in 0..size{
                 println!("{}",a[l]);
                 
