@@ -1,3 +1,8 @@
+
+/* A very basic program.
+ * Computes the sum of two variables and prints it.
+ */
+
 fn main()
 {
     let x=5;
