@@ -1,5 +1,9 @@
 use std::io;
 
+/* Prints the factorial of a user input
+ * number, calculated using for loop.
+ */
+
 fn main() {
     println!("Enter a Number: ");
     let mut num = String::new();
