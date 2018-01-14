@@ -1,5 +1,9 @@
 use std::io;
 
+/* Prints first n terms of fibonacci sequence
+ * calculated iteratively.
+ */
+
 fn main() {
     println!("Enter value of n:");
 

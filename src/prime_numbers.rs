@@ -1,5 +1,8 @@
 use std::io;
 
+/* Prints all prime numbers between 1 and a user entered number.
+*/
+
 fn main() {
     let mut num = String::new();
 
@@ -8,8 +11,8 @@ fn main() {
         .expect("Error Reading Number");
 
     let n = num.trim()
-            .parse::<i32>()
-            .unwrap();
+        .parse::<i32>()
+        .unwrap();
 
     println!("Primes between 1 and {}",n);
     for i in 2..n+1 {

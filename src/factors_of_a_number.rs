@@ -1,5 +1,8 @@
-/* This program is to find the factors of a given number */
 use std::io;
+
+/* This program is to find the factors of a given number 
+ */
+
 fn read_int() -> i32 {
     let mut num = String::new();
 
@@ -12,16 +15,14 @@ fn read_int() -> i32 {
         .unwrap()
 }
 
-fn main(){
-   println!("Enter a positive integer :");
-   let  number=read_int();
-   println!("Factors of {} are :",number);
-   
-   for i in 1..number+1
-     {
-       if number%i == 0
-         {
+fn main() {
+    println!("Enter a positive integer :");
+    let number = read_int();
+    println!("Factors of {} are :", number);
+    
+    for i in 1..number+1 {
+        if number%i == 0 {
             println!("{}",i);
-         }
-     }
+        }
+    }
 }

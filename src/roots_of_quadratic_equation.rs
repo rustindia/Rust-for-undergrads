@@ -1,5 +1,9 @@
 use std::io;
 
+/* Prints the roots of a quadratic equation with given coefficients,
+ * calculated using quadratic formula.
+ */
+
 fn main() {
     println!("Quadratic Equation: ax^2 + bx + c = 0");
 

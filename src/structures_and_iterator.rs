@@ -1,5 +1,9 @@
 use std::fmt::{self, Formatter, Display};
 
+/* Demonstrates printing of a user defined struct
+ * using println! macro.
+ */
+
 struct City {
     name: &'static str,
     // Latitude
