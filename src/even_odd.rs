@@ -7,8 +7,7 @@ fn main() {
     let z=x%2;
     if z==1 {
         println!("The number {} is odd",x);
-    }
-    else {
+    } else {
         println!("The number {} is even",x);
     }
 }

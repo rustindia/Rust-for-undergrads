@@ -1,6 +1,8 @@
 use std::io;
-// This program is used to compute 
+
+// This program is used to compute
 // quotient and remainder for user input numbers
+
 fn read_int() -> i32 {
     let mut num = String::new();
 

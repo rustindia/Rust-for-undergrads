@@ -1,6 +1,6 @@
 use std::io;
 
-/* Calculates LCM nad GCD (HCF) of two
+/* Calculates LCM and GCD (HCF) of two
  * numbers.
  */
 
@@ -40,7 +40,7 @@ fn main() {
         remainder   = numerator % denominator;
     }
     gcd = denominator;
-    
+
     // uses the identity LCM*GCD = N1*N2
     lcm = my_int1 * my_int2 / gcd;
     println!("GCD of {} and {} is {}",my_int1,my_int2,gcd );
