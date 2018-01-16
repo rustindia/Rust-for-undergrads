@@ -16,6 +16,7 @@ Resources:
 
 Community:
 - [rust-beginners](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-beginners), an IRC channel that loves answering questions at any depth.
+- [The Rust Users Forum](https://users.rust-lang.org/), for discussion of all things Rust.
 - [Rust Subreddit](https://www.reddit.com/r/rust), a place where Rust geeks love to engage.
 
 Any C/C++ program you want someone to turn to Rust?, [create an issue](https://github.com/swechaFSMI/Rust-for-undergrads/issues/new)
