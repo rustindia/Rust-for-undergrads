@@ -2,21 +2,25 @@
 
 # Rust-for-undergrads
 
-Aim: To make it easy for undergrads to start Rust.
+Aim: Encouraging undergrads to re-write *C/C++ questions in their academics, job interview and programming practice problems* into Rust language.
 
-Plan: To make them write C/C++ programs in their academics to Rust language.
+Goals: To make it easy for undergrads to start programming in Rust. Evangelizing universities/schools to replace Rust in place of C/C++.
 
-Goal: To complete atleast 50 Rust programs by December 2017.
-
-Level: Beginner
+Level: Beginner/Intermediate
 
 Resources:
-- [Rust by Example](https://rustbyexample.com/)
-- [A Guide to Porting C/C++ to Rust](https://www.gitbook.com/book/locka99/a-guide-to-porting-c-to-rust/details)
+* [A Guide to Porting C/C++ to Rust](https://www.gitbook.com/book/locka99/a-guide-to-porting-c-to-rust/details)
+* [Rust by Example](https://rustbyexample.com/)
+* [Rustlings](https://github.com/carols10cents/rustlings)
+* [Rosetta Code](http://rosettacode.org/wiki/Category:Rust)
+* [exercism.io](http://exercism.io/languages/rust/about)
+
+
+![Poster](https://github.com/rustindia/Rust-for-undergrads/blob/master/Rust_for_undergrads.png)
 
 Community:
-- [rust-beginners](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-beginners), an IRC channel that loves answering questions at any depth.
-- [The Rust Users Forum](https://users.rust-lang.org/), for discussion of all things Rust.
-- [Rust Subreddit](https://www.reddit.com/r/rust), a place where Rust geeks love to engage.
+1. [rust-beginners](https://chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-beginners), an IRC channel that loves answering questions at any depth.
+2. [Rust Subreddit](https://www.reddit.com/r/rust), a place where Rust geeks love to engage.
+3. [The Rust Users Forum](https://users.rust-lang.org/), for discussion of all things Rust.
 
-Any C/C++ program you want someone to turn to Rust?, [create an issue](https://github.com/swechaFSMI/Rust-for-undergrads/issues/new)
+Any C/C++(or other) program(s) you want someone to re-write to Rust?, [create an issue](https://github.com/swechaFSMI/Rust-for-undergrads/issues/new)
