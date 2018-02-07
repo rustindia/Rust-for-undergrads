@@ -4,7 +4,7 @@
 
 Aim: Encouraging undergrads to re-write *C/C++ questions in their academics, job interview and programming practice problems* into Rust language.
 
-Goals: To make it easy for undergrads to start programming in Rust. Evangelizing universities/schools to replace Rust in place of C/C++.
+Goals: To make it easy for undergrads to start programming in Rust. To advocate universities/schools to use Rust for beginner courses(like example C/C++ is used) and courses like operating systems.
 
 Level: Beginner/Intermediate
 
