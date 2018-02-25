@@ -23,7 +23,7 @@ fn main() {
 }
 
 fn is_prime(n:i32) -> bool {
-    for i in 2..(n/2+1) {
+    for i in 2..(n.sqrt()) {
         if n%i==0 {
             return false
         }
