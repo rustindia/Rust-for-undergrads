@@ -25,13 +25,13 @@ fn main(){
     if b == 5 {
         println!("{}",b);
     }
-    if b == 0 || b == 2{
+    if b == 0 || b == 2 {
         println!("2");
     }
-    if b == 3 || b == 7{
+    if b == 3 || b == 7 {
         println!("3");
     }
-    if b == 4 || b == 6{
+    if b == 4 || b == 6 {
         println!("4");
     }
 
