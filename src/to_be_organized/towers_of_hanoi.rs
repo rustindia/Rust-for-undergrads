@@ -7,5 +7,5 @@ fn move_(n: i32, from: i32, to: i32, via: i32) {
 }
  
 fn main() {
-    move_(4, 1,2,3);
+    move_(4, 1, 2, 3);
 }
