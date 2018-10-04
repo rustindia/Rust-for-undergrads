@@ -14,7 +14,7 @@ fn read()->i32{
     num.trim().parse::<i32>()
         .unwrap()
 }
-fn main(){
+fn main() {
     let size=read() as usize;
     let mut a=vec!();
     let mut b=vec!();
