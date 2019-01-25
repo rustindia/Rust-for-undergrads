@@ -1,0 +1,14 @@
+fn main(){
+    let  x = 234;
+    let a = x%10;
+    println!("a={}",a);
+    let aa = x/10;
+    let s = aa%10;
+    println!("s={}",s);
+    let ss = aa/10;
+    let d = ss%10;
+    println!("d={}",d);
+    let f = a+s+d;
+    println!("the sum is ={}",f);
+    
+}
