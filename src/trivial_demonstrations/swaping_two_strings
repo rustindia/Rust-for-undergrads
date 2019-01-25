@@ -1,0 +1,14 @@
+//swapping two strings
+use std::io;
+
+
+fn read_int()->u32{
+    let mut num=String::new();
+
+    io::stdin()
+        .read_line(&mut num)
+        .expect("error");
+
+    num.trim().parse::<u32>()
+        .unwrap()
+}
