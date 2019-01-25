@@ -1,0 +1,18 @@
+use std::in
+fn main()
+{
+println!("enter a number:");
+let mut num=string::new();
+io::stdin()
+	.read_line(&mut num)
+	.expect("Error reading number");
+let n = num.trim()
+	.parse::<u32>()
+	.unwrap();
+let mut fact =1;
+
+for i in 1...n+1{
+fact *= i;
+}
+println!("Factorial is {}",factorial);
+}
