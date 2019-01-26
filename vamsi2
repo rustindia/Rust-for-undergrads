@@ -1,0 +1,15 @@
+use std::cmp::min;
+  
+let mut numbers = Vec::new();
+  
+for i in 0..min(data1.len(), data2.len()) {
+    let n = data1[i] * data2[i];
+  
+    if n > 5 {
+        numbers.push(n);
+    }
+  
+    if numbers.len() == 4 {
+        break;
+    }
+}
