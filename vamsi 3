@@ -1,0 +1,12 @@
+fn main()
+{
+let x=10;
+if x%2==0
+{
+println!("x is a prime");
+}
+else
+{
+println("x is not a prime");
+}
+}
