@@ -1,14 +1,19 @@
 //swapping two strings
-use std::io;
+fn main(){
 
-
-fn read_int()->u32{
+ use std::io::{stdin};
     let mut num=String::new();
+    let mut num2=String::new();
+    let mut num3=String::new();
 
-    io::stdin()
-        .read_line(&mut num)
-        .expect("error");
-
-    num.trim().parse::<u32>()
-        .unwrap()
-}
+      print!("Please enter some text: ");
+    stdin().read_line(&mut num).expect("Did not enter a correct string");
+    
+      print!("Please enter some text: ");
+    stdin().read_line(&mut num2).expect("Did not enter a correct string");
+    
+    num3 = num.clone();
+    num = num2.clone();
+    num2 = num3.clone();
+    println!("{},{}",num,num2);
+    }
