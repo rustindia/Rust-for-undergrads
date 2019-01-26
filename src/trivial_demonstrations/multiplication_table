@@ -8,7 +8,7 @@ fn main() {
      let mut num = String::new();
     println!("Enter the number to print multiplication table for:");
      stdin().read_line(&mut num).expect("Did not enter a correct string");//TAKING INPUTS AS ASTRING
-     let mut n = num.trim().parse::<i32>().unwrap();//CONVERTING STRING TO INTEGER
+     let n = num.trim().parse::<i32>().unwrap();//CONVERTING STRING TO INTEGER
    
     for i in 1..11 {
         println!("{}*{}={}",n,i,n*i);
