@@ -1,0 +1,8 @@
+use std::io;
+//string reverse
+fn main() {
+let mut num=String::new();
+io::stdin().read_line(&mut num);
+let t = num.chars().rev().collect::<String>();
+println!("{}",t);
+}
