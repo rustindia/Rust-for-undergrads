@@ -1,0 +1,35 @@
+use std::io;
+fn main()
+{
+    let mut coef = 1;
+
+    println!("Enter number of rows: ");
+    let mut r=String::new();
+    io::stdin().read_line(&mut r).expect("");
+    let mut rows: i32;
+    rows=r.parse().unwrap();
+
+    for i in 0..rows
+    {
+        for _s in 0..(rows-i)
+        {
+            print!(" ");
+        }
+        for j in 0..i 
+        {
+            if j==0 || i==0
+            {
+                coef = 1;
+            }
+            else
+            {
+                coef = coef*(i-j+1)/j;
+            }
+
+            print!("{} ", coef);
+        }
+        print!("1\n");
+    }
+
+}
+
