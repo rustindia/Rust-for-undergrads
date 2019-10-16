@@ -9,7 +9,7 @@ Goals: To make it easy for undergrads to start programming in Rust. To advocate 
 Level: Beginner/Intermediate
 
 Resources:
-* [A Guide to Porting C/C++ to Rust](https://www.gitbook.com/book/locka99/a-guide-to-porting-c-to-rust/details)
+* [A Guide to Porting C/C++ to Rust](https://locka99.gitbooks.io/a-guide-to-porting-c-to-rust/)
 * [Rust by Example](https://rustbyexample.com/)
 * [Rustlings](https://github.com/carols10cents/rustlings)
 * [Rosetta Code](http://rosettacode.org/wiki/Category:Rust)
