@@ -38,16 +38,22 @@ fn main() {
     let img2 = img2.trim();
     let img2: i32 = img2.parse().unwrap();
 
-    println!("Your First complex number is; {}+{}i",real1,img1 );
-    println!("Your Second complex number is; {}+{}i",real2,img2 );
+    println!("Your First complex number is; {}+{}i", real1, img1);
+    println!("Your Second complex number is; {}+{}i", real2, img2);
 
-    let real3 = real1+real2;
-    let img3 = img1+img2;
+    let real3 = real1 + real2;
+    let img3 = img1 + img2;
 
-    println!("Sum of First & Second complex number is; [{}]+[{}i]",real3,img3 );
+    println!(
+        "Sum of First & Second complex number is; [{}]+[{}i]",
+        real3, img3
+    );
 
-    let real4 = real1*real2-img1*img2;
-    let img4 = real1*img2+real2*img1;
+    let real4 = real1 * real2 - img1 * img2;
+    let img4 = real1 * img2 + real2 * img1;
 
-    println!("Product of First & Second complex number is; [{}]+[{}i]",real4,img4 );
+    println!(
+        "Product of First & Second complex number is; [{}]+[{}i]",
+        real4, img4
+    );
 }
