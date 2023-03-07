@@ -1,0 +1,24 @@
+use std::io;
+//3 chocolates wrapers will give as chocolate
+//this is used to find the total no of choclates retained
+fn main()
+{
+    let mut rap:i32=0;
+    let mut m=String::new();
+        io::stdin()
+        .read_line(&mut m)
+        .expect("failed to read from stdin");
+
+    let mut n = m.trim()
+                .parse::<i32>()
+                .unwrap();
+    let mut tot:i32=n;
+    while n>2
+    {
+        tot=tot+n/3;
+        rap=n-n/3*3+n/3;
+        n=rap;
+    }
+    println!("no of chocolates={}",tot);
+    print!("no of wrapers={}",rap);
+}
