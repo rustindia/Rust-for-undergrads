@@ -1,0 +1,26 @@
+use std::io;
+fn main()
+{
+    let mut s = String::new();
+    io::stdin().read_line(&mut s).expect("");
+    let n: i32 = s.parse().unwrap();
+    let mut x: i32;
+    x=n;
+    let mut y: i32;
+    y=1;
+    for i in 0..n
+    {
+        
+        for j in 0..(x)
+        {
+            print!(" ")
+        }
+        for k in 0..y
+        {
+            print!("*");
+        }
+        y=y+2;
+        x=x-1;
+        print!("\n");
+    }
+}
