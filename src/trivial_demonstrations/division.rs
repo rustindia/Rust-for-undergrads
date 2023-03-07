@@ -10,18 +10,16 @@ fn read_int() -> i32 {
         .read_line(&mut num)
         .expect("Error reading number");
 
-    num.trim()
-        .parse::<i32>()
-        .unwrap()
+    num.trim().parse::<i32>().unwrap()
 }
 
 fn main() {
     println!("enter dividend:");
-    let dividend = read_int();              // reading an integer for dividend
+    let dividend = read_int(); // reading an integer for dividend
     println!("divisor:");
-    let divisor = read_int();               //reading an integer for divisor
-    let quotient = dividend/divisor;        //calculating quotient
-    let remainder = dividend%divisor;       //calculating remainder
-    println!("Quotient = {}",quotient);
-    println!("Remainder = {}",remainder);
+    let divisor = read_int(); //reading an integer for divisor
+    let quotient = dividend / divisor; //calculating quotient
+    let remainder = dividend % divisor; //calculating remainder
+    println!("Quotient = {}", quotient);
+    println!("Remainder = {}", remainder);
 }
